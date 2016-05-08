@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ll_cache_top"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/blue"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/title_style"
+                    android:background="@color/transparent"
+                    android:text="缓存清理"
+                    android:textColor="#7fff" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/iv_cache_scan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/scan" />
+
+                    <TextView
+                        android:id="@+id/tv_cache_scan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:singleLine="true"
+                        android:textColor="#afff"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tv_cache_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="0"
+                        android:textColor="#9fff"
+                        android:textSize="100sp" />
+
+                    <TextView
+                        android:id="@+id/tv_cache_size"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tv_cache_num"
+                        android:layout_toRightOf="@id/tv_cache_num"
+                        android:text="B"
+                        android:textColor="#7fff"
+                        android:textSize="23sp" />
+
+                    <TextView
+                        android:id="@+id/tv_cache_prompt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_cache_num"
+                        android:layout_centerHorizontal="true"
+                        android:text="建议您立即清理!"
+                        android:textColor="#9fff"
+                        android:textSize="30sp"
+                        android:visibility="invisible" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/list_bg"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ExpandableListView
+                        android:id="@+id/tlv_cache"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+                    </ExpandableListView>
+				<LinearLayout 
+				    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+				    android:orientation="vertical"
+				    >
+                    <RelativeLayout
+                        android:id="@+id/rl_cache_inner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                         >
+
+                        <ImageView
+                            android:id="@+id/iv_cache_group"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="40dp"
+                            android:background="@drawable/cache_clear" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@id/iv_cache_group"
+                            android:text="内部缓存"
+                            android:textColor="@color/gray"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/tv_cache_innertotal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="15dp"
+                            android:text="0B"
+                            android:textColor="@color/gray"
+                            android:textSize="25sp" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/rl_cache_external"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                         >
+
+                        <ImageView
+                            android:id="@+id/iv_cache_group2"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="40dp"
+                            android:background="@drawable/cache_clear" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@id/iv_cache_group2"
+                            android:text="外部缓存"
+                            android:textColor="@color/gray"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/tv_cache_innertotal2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="15dp"
+                            android:text="0B"
+                            android:textColor="@color/gray"
+                            android:textSize="25sp" />
+                    </RelativeLayout>
+                    
+                    </LinearLayout>
+                    <TextView 
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="一键清理"
+                        android:textSize="30sp"
+                        android:textColor="#9fff"
+                        android:clickable="true"
+                        android:onClick="clearAll"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/shape_cache"
+                        android:layout_gravity="bottom"
+                        />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="7" />
+
+            <SlidingDrawer
+                android:id="@+id/sd"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:content="@+id/mycontent"
+                android:handle="@+id/myhandle"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@id/myhandle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/index_button_pull_down" />
+
+                <LinearLayout
+                    android:id="@id/mycontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <GridView
+                        android:id="@+id/gv_home2_low"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@drawable/widget_bg_switch"
+                        android:numColumns="4" />
+                </LinearLayout>
+            </SlidingDrawer>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

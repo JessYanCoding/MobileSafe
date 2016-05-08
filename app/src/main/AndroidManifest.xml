@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jess.mobilesafe"
+    android:installLocation="internalOnly"
+    android:versionCode="1"
+    android:versionName="2.3.6">
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:name=".application.Myapplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <!-- activity  start -->
+        <activity
+            android:name="com.jess.mobilesafe.activity.SplashActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.jess.home" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name="com.jess.mobilesafe.activity.HomeActivity"></activity>
+        <activity android:name="com.jess.mobilesafe.activity.SettingActivity"></activity>
+        <activity android:name="com.jess.mobilesafe.activity.LostFindActivity"></activity>
+        <activity android:name="com.jess.mobilesafe.activity.Step1Activity"></activity>
+        <activity android:name="com.jess.mobilesafe.activity.Step2Activity"></activity>
+        <activity android:name="com.jess.mobilesafe.activity.Step3Activity"></activity>
+        <activity android:name="com.jess.mobilesafe.activity.Step4Activity"></activity>
+        <activity android:name="com.jess.mobilesafe.activity.ContactActivity"></activity>
+        <activity android:name="com.jess.mobilesafe.activity.ToolActivity"></activity>
+        <activity android:name="com.jess.mobilesafe.activity.AddressQueryActivity"></activity>
+        <activity
+            android:name="com.jess.mobilesafe.activity.AddressPositionActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+        <activity android:name="com.jess.mobilesafe.activity.CallSafeActivity"></activity>
+        <activity android:name="com.jess.mobilesafe.activity.APPManageActivity"></activity>
+        <activity android:name="com.jess.mobilesafe.activity.ProcessManageActivity"></activity>
+        <activity android:name="com.jess.mobilesafe.activity.CommonNumberQueryActivity"></activity>
+        <activity android:name="com.jess.mobilesafe.activity.Home2Activity"></activity>
+        <activity android:name="com.jess.mobilesafe.activity.AntivirusActivity"></activity>
+        <activity android:name="com.jess.mobilesafe.activity.CacheClearActivity"></activity>
+        <activity android:name="com.jess.mobilesafe.activity.ProgramLockActivity"></activity>
+        <activity
+            android:name="com.jess.mobilesafe.activity.ProgramDogActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"></activity>
+        <activity
+            android:name="com.jess.touch.TouchActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+        <activity
+            android:name="com.jess.touch.TouchCleanActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+        <activity android:name="com.jess.mobilesafe.activity.CacheFinishActivity"></activity>
+        <!-- activity end -->
+
+
+        <!-- receiver start -->
+        <!-- 安装包安装和卸载监听 -->
+        <receiver android:name="com.jess.mobilesafe.receiver.packageinstall">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <!-- 手机启动监听 -->
+        <receiver android:name="com.jess.mobilesafe.receiver.BootCheck">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <!-- 命令短信拦截 -->
+        <receiver android:name="com.jess.mobilesafe.receiver.SMSAbort">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <!-- 设备管理器 -->
+        <receiver
+            android:name="com.jess.mobilesafe.receiver.AdminReceiver"
+            android:description="@string/sample_device_admin_description"
+            android:label="@string/sample_device_admin"
+            android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin_sample" />
+
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+        <!-- 桌面小部件的配置 -->
+        <receiver android:name="com.jess.mobilesafe.receiver.AppWidgetClean">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/example_appwidget_info" />
+        </receiver>
+        <!-- touch开机启动 -->
+        <receiver android:name="com.jess.touch.BootCheck">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <!-- receiver end -->
+
+
+        <!-- service start -->
+        <!-- 获取位置的服务 -->
+        <service android:name="com.jess.mobilesafe.sevice.LocationService"></service>
+        <!-- 来电去电归属地显示服务 -->
+        <service android:name="com.jess.mobilesafe.sevice.AddressDisplayService"></service>
+        <!-- 锁屏助手服务 -->
+        <service android:name="com.jess.mobilesafe.sevice.LockService"></service>
+        <!-- 黑名单拦截服务 -->
+        <service android:name="com.jess.mobilesafe.sevice.BlackAbortService"></service>
+        <!-- 锁屏后清理进程 -->
+        <service android:name="com.jess.mobilesafe.sevice.KillProcessService"></service>
+        <!-- widget更新服务 -->
+        <service android:name="com.jess.mobilesafe.sevice.WidgetService"></service>
+        <!-- 看门狗服务 -->
+        <service android:name="com.jess.mobilesafe.sevice.ProgramDogService"></service>
+        <!-- touch主服务 -->
+        <service android:name="com.jess.touch.RocketService"></service>
+        <!-- service end -->
+    </application>
+
+</manifest>

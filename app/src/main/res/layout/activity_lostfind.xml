@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/title_style"
+        android:background="@color/transparent"
+        android:text="手机防盗"
+        android:textColor="#fff" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:text="安全号码"
+            android:textColor="#afff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_lostfind_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:textColor="#afff"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:text="防盗保护是否开启"
+            android:textColor="#afff"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/iv_isok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+           />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_lostfind3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:onClick="reEnter"
+        android:text="重新进入设置向导"
+        android:background="@drawable/shape_selector"
+        android:textColor="#afff"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="功能简介"
+        android:layout_marginTop="3dp"
+        android:textColor="#afff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_marginTop="1dp"
+        style="@style/step1_style"
+        android:text="GPS追踪: #*location*#"
+       android:textColor="#afff"
+        android:textSize="18sp"/>
+
+    <TextView
+        style="@style/step1_style"
+        android:layout_marginTop="5dp"
+        android:text="播放报警音乐: #*alarm*#"
+       android:textColor="#afff"
+        android:textSize="18sp"/>
+
+    <TextView
+        style="@style/step1_style"
+        android:layout_marginTop="5dp"
+        android:text="远程删除数据: #*wipedata*#"
+        android:textColor="#afff"
+        android:textSize="18sp"/>
+
+    <TextView
+        style="@style/step1_style"
+        android:layout_marginTop="5dp"
+        android:text="远程锁屏: #*lockscreen*#"
+        android:textColor="#afff"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="!!!清除数据要想生效命令后面必须跟上逗号加上你的安全号码||锁屏命令后面必须跟上安全号码再一个逗号跟上锁屏密码"
+        android:textColor="#fff"
+        android:textSize="15sp"/>
+
+</LinearLayout>

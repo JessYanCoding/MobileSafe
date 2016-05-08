@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:jess="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_bg"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/title_style"
+        android:background="@drawable/btn_special_disabled"
+        android:text="设置中心" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.jess.mobilesafe.view.BaseSettingView
+                android:id="@+id/bv_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                jess:desc_off="自动更新已关闭"
+                jess:desc_on="自动更新已开启"
+                jess:titles="自动更新设置" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/index_line_h" />
+
+            <com.jess.mobilesafe.view.BaseSettingView
+                android:id="@+id/bv_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                jess:desc_off="归属地显示已关闭"
+                jess:desc_on="归属地显示已开启"
+                jess:titles="电话归属地显示设置" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/index_line_h" />
+
+            <com.jess.mobilesafe.view.BaseSettingView2
+                android:id="@+id/bv_address_Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/index_line_h" />
+
+            <com.jess.mobilesafe.view.BaseSettingView2
+                android:id="@+id/bv_address_position"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/index_line_h" />
+
+            <com.jess.mobilesafe.view.BaseSettingView
+                android:id="@+id/bv_lock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                jess:desc_off="锁屏清理助手已关闭"
+                jess:desc_on="锁屏清理助手已开启"
+                jess:titles="锁屏清理助手设置" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/index_line_h" />
+
+            <com.jess.mobilesafe.view.BaseSettingView
+                android:id="@+id/bv_black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                jess:desc_off="黑名单拦截已关闭"
+                jess:desc_on="黑名单拦截已开启"
+                jess:titles="黑名单拦截设置" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/index_line_h" />
+
+            <com.jess.mobilesafe.view.BaseSettingView
+                android:id="@+id/bv_programdog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                jess:desc_off="程序锁已关闭"
+                jess:desc_on="程序锁已开启"
+                jess:titles="程序锁设置" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/index_line_h" />
+
+            <com.jess.mobilesafe.view.BaseSettingView2
+                android:id="@+id/bv_boot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/index_line_h" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

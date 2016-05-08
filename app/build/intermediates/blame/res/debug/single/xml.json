@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/jess/AndroidStudioProjects/MobileSafe/app/build/intermediates/res/merged/debug/xml/device_admin_sample.xml",
+        "source": "/Users/jess/AndroidStudioProjects/MobileSafe/app/src/main/res/xml/device_admin_sample.xml"
+    },
+    {
+        "merged": "/Users/jess/AndroidStudioProjects/MobileSafe/app/build/intermediates/res/merged/debug/xml/example_appwidget_info.xml",
+        "source": "/Users/jess/AndroidStudioProjects/MobileSafe/app/src/main/res/xml/example_appwidget_info.xml"
+    }
+]

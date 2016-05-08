@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lockbg2" 
+    >
+	<RelativeLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    >
+	   
+    <TextView
+        android:id="@+id/tv_dog_name"
+        style="@style/title_style"
+        android:background="@color/transparent"
+        android:textColor="#7fff" />
+    <TextView
+         android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:id="@+id/tv_dog_name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="12sp"
+        android:text="安卓卫士程序锁"
+        android:textColor="#7fff" />
+     <ImageView 
+         android:id="@+id/iv_dog_icon"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="40dp"
+	        />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bt_dog"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:background="#3fff"
+        android:onClick="ok"
+        android:text="确定"
+        android:textColor="#8fff" />
+    <EditText
+        android:id="@+id/et_dog_input"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bt_dog"
+        android:layout_centerHorizontal="true"
+        android:hint="请输入安全密码"
+        android:inputType="textPassword"
+        android:textColor="#8fff" />
+
+</RelativeLayout>

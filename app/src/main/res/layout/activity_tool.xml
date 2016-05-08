@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/title_style"
+        android:textColor="#afff"
+        android:text="高级工具" />
+
+    <TextView
+        style="@style/tool"
+        android:clickable="true"
+        android:onClick="enterAddressQuery"
+        android:textColor="#afff"
+        android:text="电话归属地查询" />
+
+    <TextView
+        style="@style/tool"
+        android:clickable="true"
+        android:textColor="#afff"
+        android:onClick="commonNumber"
+        android:text="常用号码查询" />
+
+    <TextView
+        style="@style/tool"
+        android:textColor="#afff"
+        android:clickable="true"
+        android:onClick="backup"
+        android:text="短信备份" />
+
+
+</LinearLayout>

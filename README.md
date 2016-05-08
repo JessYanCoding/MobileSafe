@@ -7,9 +7,9 @@
 eventbus retrofit 这也是我近期的项目所用到的,我会重新建一个仓库，这个项目主要给新手学习，敬请期待...<br>
 
 ##Download
-  安智市场下载地址：http://www.anzhi.com/soft_2391883.html （希望大家尽量这里下载，帮我破万）<br>
-  优亿市场下载地址：http://www.eoemarket.com/soft/761061.html<br>
-  豌豆荚市场下载地址：http://www.wandoujia.com/apps/com.jess.mobilesafe<br>
+  * 安智市场下载地址：http://www.anzhi.com/soft_2391883.html （希望大家尽量这里下载，帮我破万）<br>
+  * 优亿市场下载地址：http://www.eoemarket.com/soft/761061.html<br>
+  * 豌豆荚市场下载地址：http://www.wandoujia.com/apps/com.jess.mobilesafe<br>
 
 ##关于我
 * Email: jessyan@foxmail.com

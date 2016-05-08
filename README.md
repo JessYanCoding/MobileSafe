@@ -6,6 +6,9 @@
 今后准备重构此项目，尽量用最新的技术，ui方面material design控件当然不会少，框架上会使用现在比较火的mvp rxjava dagger2 
 eventbus retrofit 这也是我近期的项目所用到的,我会重新建一个仓库，这个项目主要给新手学习，敬请期待...<br>
 
+##Screenshots
+![image](https://github.com/JessYanCoding/MobileSafe/raw/master/screenshots/Screenshot_2015-10-09-22-21-30.png)
+
 ##Download
   * 安智市场下载地址：http://www.anzhi.com/soft_2391883.html （希望大家尽量这里下载，帮我破万）<br>
   * 优亿市场下载地址：http://www.eoemarket.com/soft/761061.html<br>

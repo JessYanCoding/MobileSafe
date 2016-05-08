@@ -60,12 +60,12 @@
         "source": "/Users/jess/AndroidStudioProjects/MobileSafe/app/src/androidTest/res/drawable-hdpi/title.png"
     },
     {
-        "merged": "/Users/jess/AndroidStudioProjects/MobileSafe/app/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/step4_bg.png",
-        "source": "/Users/jess/AndroidStudioProjects/MobileSafe/app/src/androidTest/res/drawable-hdpi/step4_bg.png"
-    },
-    {
         "merged": "/Users/jess/AndroidStudioProjects/MobileSafe/app/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/open.png",
         "source": "/Users/jess/AndroidStudioProjects/MobileSafe/app/src/androidTest/res/drawable-hdpi/open.png"
+    },
+    {
+        "merged": "/Users/jess/AndroidStudioProjects/MobileSafe/app/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/step4_bg.png",
+        "source": "/Users/jess/AndroidStudioProjects/MobileSafe/app/src/androidTest/res/drawable-hdpi/step4_bg.png"
     },
     {
         "merged": "/Users/jess/AndroidStudioProjects/MobileSafe/app/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/touch.png",

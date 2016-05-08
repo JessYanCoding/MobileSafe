@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">安卓卫士</string>
+    <string name="app_name">安卓手机卫士</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
 	<string name="sample_device_admin_description">要开启手机防盗相关功能必须激活此设备</string>

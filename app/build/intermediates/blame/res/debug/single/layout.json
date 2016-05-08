@@ -1,19 +1,19 @@
 [
     {
-        "merged": "/Users/jess/AndroidStudioProjects/MobileSafe/app/build/intermediates/res/merged/debug/layout/item_process.xml",
-        "source": "/Users/jess/AndroidStudioProjects/MobileSafe/app/src/main/res/layout/item_process.xml"
-    },
-    {
         "merged": "/Users/jess/AndroidStudioProjects/MobileSafe/app/build/intermediates/res/merged/debug/layout/widget_clean.xml",
         "source": "/Users/jess/AndroidStudioProjects/MobileSafe/app/src/main/res/layout/widget_clean.xml"
     },
     {
-        "merged": "/Users/jess/AndroidStudioProjects/MobileSafe/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
-        "source": "/Users/jess/AndroidStudioProjects/MobileSafe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_big_media.xml"
+        "merged": "/Users/jess/AndroidStudioProjects/MobileSafe/app/build/intermediates/res/merged/debug/layout/item_process.xml",
+        "source": "/Users/jess/AndroidStudioProjects/MobileSafe/app/src/main/res/layout/item_process.xml"
     },
     {
         "merged": "/Users/jess/AndroidStudioProjects/MobileSafe/app/build/intermediates/res/merged/debug/layout/item_cache_group.xml",
         "source": "/Users/jess/AndroidStudioProjects/MobileSafe/app/src/main/res/layout/item_cache_group.xml"
+    },
+    {
+        "merged": "/Users/jess/AndroidStudioProjects/MobileSafe/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/jess/AndroidStudioProjects/MobileSafe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_big_media.xml"
     },
     {
         "merged": "/Users/jess/AndroidStudioProjects/MobileSafe/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",

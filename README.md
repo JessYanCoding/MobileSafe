@@ -5,6 +5,7 @@
 * 这大半年期间下载也突破一万了，一直都没迭代过，觉得挺歉意的，这半年我也独立开发了几个商业项目，积累了些许经验，所以我
 今后准备重构此项目，尽量用最新的技术，ui方面material design控件当然不会少，框架上会使用现在比较火的mvp rxjava dagger2 
 eventbus retrofit 这也是我近期的项目所用到的,我会重新建一个仓库，这个项目主要给新手学习，敬请期待...<br>
+
 ##Download
   安智市场下载地址：http://www.anzhi.com/soft_2391883.html （希望大家尽量这里下载，帮我破万）<br>
   优亿市场下载地址：http://www.eoemarket.com/soft/761061.html<br>

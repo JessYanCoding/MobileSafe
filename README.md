@@ -11,7 +11,7 @@ eventbus retrofit 这也是我近期的项目所用到的,我会重新建一个�
   * 优亿市场下载地址：http://www.eoemarket.com/soft/761061.html<br>
   * 豌豆荚市场下载地址：http://www.wandoujia.com/apps/com.jess.mobilesafe<br>
 
-##关于我
+##About Me
 * Email: jessyan@foxmail.com
   
   

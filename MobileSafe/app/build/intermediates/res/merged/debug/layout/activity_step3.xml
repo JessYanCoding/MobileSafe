@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/title_style"
+        android:background="@color/transparent"
+        android:text="3.设置安全号码"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="SIM卡变更后:"
+        android:textColor="#afff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:text="报警短信会发送给安全号码"
+        android:textColor="#afff"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_step3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:inputType="number"
+        android:textColor="#afff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/bt_step3_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3fff"
+        android:onClick="enterContact"
+        android:text="选择联系人"
+        android:textColor="#afff"
+        android:textSize="21sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_invisible" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_invisible" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_online" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_invisible" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/step3_bg" />
+
+        <Button
+            style="@style/next_button_style"
+            android:background="#3fff"
+            android:textColor="#5fff" />
+
+        <Button
+            style="@style/previous_button_style"
+            android:background="#3fff"
+            android:textColor="#5fff" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_touchclean"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="#9000" >
+
+                <GridView
+                    android:id="@+id/gv_clean"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:numColumns="3" >
+                </GridView>
+                <Button
+                android:layout_below="@id/gv_clean"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" 
+                android:background="@drawable/shape_clean"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:text="一键清理"
+                android:textColor="#8fff"
+                android:onClick="clean"
+                />
+            </RelativeLayout>
+
+            
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_app_loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:visibility="invisible" >
+
+            <ProgressBar
+                android:id="@+id/pb_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/rl_touch_prompt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/tv_touch_prompt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" 
+                android:textColor="#8fff"
+                android:text="清理完毕"
+                android:textSize="50sp"
+                android:visibility="invisible"
+                />
+            <TextView
+                android:id="@+id/tv_touch_prompt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/tv_touch_prompt1"
+                android:textColor="#8fff"
+                android:visibility="invisible"
+                android:textSize="25sp"
+                />
+        </RelativeLayout>
+    </FrameLayout>
+
+</RelativeLayout>

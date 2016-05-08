@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical" >
+    <TextView 
+        style="@style/title_style"
+        android:textColor="#afff"
+        android:text="归属地查询"/>
+    <EditText 
+        android:id="@+id/et_addressquery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="#afff"
+        android:hint="请输入要查询的号码"
+        />
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="query"
+        android:gravity="center"
+        android:textColor="#afff"
+        android:background="#3fff"
+        android:text="查询"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#afff"
+        android:textSize="22sp"
+        android:text="查询结果:"
+        />
+    <TextView
+        android:id="@+id/tv_query_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:textColor="#fff"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        />
+
+</LinearLayout>

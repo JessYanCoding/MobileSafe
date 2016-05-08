@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/widget_clean"
+    android:minHeight="72.0dip"
+    android:minWidth="294.0dip"
+    android:updatePeriodMillis="1800000" />
+
+
+<!-- android:updatePeriodMillis="0" 
+谷歌默认是每隔半个小时进行更新一次
+
+设置更新时间为0.我们就可以自己控制这个时间
+
+
+-->

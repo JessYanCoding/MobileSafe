@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <ImageView 
+        android:id="@+id/iv_icon"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/l5ltj"
+        />
+     <TextView
+        android:layout_toRightOf="@id/iv_icon"
+        android:id="@+id/tv_cache_childname"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:ellipsize="end"
+        android:text="应用名"
+        android:textColor="@color/gray"
+        android:textSize="20sp" />
+
+     
+    <ImageView 
+        android:id="@+id/iv_cache_delete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/delete_selector"
+        />
+    <TextView 
+        android:id="@+id/tv_cache_childtotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/iv_cache_delete"
+        android:layout_marginRight="20dp"
+        android:textSize="25sp"
+        android:text="0B"
+        />
+     
+
+</RelativeLayout>

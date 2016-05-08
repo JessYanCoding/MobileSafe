@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <ImageView 
+        android:id="@+id/iv_process_icon"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/l5ltj"
+        />
+     <TextView
+        android:layout_toRightOf="@id/iv_process_icon"
+        android:id="@+id/tv_process_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:text="应用名"
+        android:textColor="#bfff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_process_memory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_process_name"
+        android:layout_alignLeft="@id/tv_process_name"
+        android:layout_marginTop="5dp"
+        android:text="内存占用"
+        android:textColor="#8fff"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:layout_centerVertical="true"
+        android:id="@+id/cb_process"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        />
+
+</RelativeLayout>

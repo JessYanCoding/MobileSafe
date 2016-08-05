@@ -19,6 +19,6 @@ eventbus retrofit 这也是我近期的项目所用到的,我会重新建一个�
   * 豌豆荚市场下载地址：http://www.wandoujia.com/apps/com.jess.mobilesafe<br>
 
 ##About Me
-* Email: jessyan@foxmail.com
+* Email: jess.yan.effort@gmail.com
   
   

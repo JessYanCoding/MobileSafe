@@ -7,8 +7,8 @@
 eventbus retrofit 这也是我近期的项目所用到的,我会重新建一个仓库，这个项目主要给新手学习，敬请期待...<br>
 
 ##Screenshots
-![image](https://github.com/JessYanCoding/MobileSafe/raw/master/screenshots/Screenshot_2015-10-09-22-21-30.png =100＊55)
-![image](https://github.com/JessYanCoding/MobileSafe/raw/master/screenshots/Screenshot_2015-10-09-22-21-56.png =100＊55)
+![](https://github.com/JessYanCoding/MobileSafe/raw/master/screenshots/Screenshot_2015-10-09-22-21-30.png =100＊55)
+![image](https://github.com/JessYanCoding/MobileSafe/raw/master/screenshots/Screenshot_2015-10-09-22-21-56.png)
 ![image](https://github.com/JessYanCoding/MobileSafe/raw/master/screenshots/Screenshot_2015-10-09-22-22-06.png =100＊55)
 ![image](https://github.com/JessYanCoding/MobileSafe/raw/master/screenshots/Screenshot_2015-10-09-22-21-37.png =100＊55)
 ![image](https://github.com/JessYanCoding/MobileSafe/raw/master/screenshots/Screenshot_2015-10-12-18-06-21.png =100＊55)

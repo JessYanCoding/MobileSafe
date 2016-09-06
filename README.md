@@ -6,7 +6,7 @@
 今后准备重构此项目，尽量用最新的技术，ui方面material design控件当然不会少，框架上会使用现在比较火的mvp rxjava dagger2 
 eventbus retrofit 这也是我近期的项目所用到的,我会重新建一个仓库，这个项目主要给新手学习，敬请期待...<br>
 
-* [Android进阶的学习项目可以关注下](https://jessyancoding.github.io/MVPArms/)
+* [Android进阶学习项目](https://jessyancoding.github.io/MVPArms/)
 
 
 ##Screenshots

@@ -25,5 +25,3 @@ eventbus retrofit 这也是我近期的项目所用到的,我会重新建一个�
 
 ##About Me
 * Email: jess.yan.effort@gmail.com        
-  
-  

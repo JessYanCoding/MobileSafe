@@ -17,9 +17,10 @@
 
 
 ##Download  
-  * 安智市场下载地址：http://www.anzhi.com/soft_2391883.html <br>   
-  * 优亿市场下载地址：http://www.eoemarket.com/soft/761061.html<br>
-  * 豌豆荚市场下载地址：http://www.wandoujia.com/apps/com.jess.mobilesafe<br>
+[安智](http://www.anzhi.com/soft_2391883.html)
+[优亿](http://www.eoemarket.com/soft/761061.html)
+[豌豆荚](http://www.wandoujia.com/apps/com.jess.mobilesafe)
 
 ##About Me
-* Email: jess.yan.effort@gmail.com                       
+* Email: jess.yan.effort@gmail.com
+* Home: jessyan.me

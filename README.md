@@ -3,7 +3,6 @@
 
 ##Description
 * 这是本人自学android时做的一个项目，当时刚刚学完android基础，所以当时的技术也就属于初学者，刚刚会最基本的东西，所以该项目用的东西都不难，也没用什么第三方库，注释也很详细，特别适合初学者，本人也是靠这个项目找到实习的，所以现在开源给喜欢android的朋友学习，项目本来是用eclipse开发的，现在特意把项目修复成androidstudio项目，便于后面重构，也希望正在学习android的朋友，开始使用android studio<br>
-<br> 
 
 * [Android进阶学习项目](https://github.com/JessYanCoding/MVPArms)
 

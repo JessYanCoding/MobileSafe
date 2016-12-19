@@ -14,13 +14,11 @@
 <img src="https://github.com/JessYanCoding/MobileSafe/raw/master/screenshots/Screenshot_2015-10-09-22-21-37.png" width="30%" height="30%">
 
 
-
-
 ##Download  
-[安智](http://www.anzhi.com/soft_2391883.html)
-[优亿](http://www.eoemarket.com/soft/761061.html)
-[豌豆荚](http://www.wandoujia.com/apps/com.jess.mobilesafe)
+[安智](http://www.anzhi.com/soft_2391883.html)<br>
+[优亿](http://www.eoemarket.com/soft/761061.html)<br>
+[豌豆荚](http://www.wandoujia.com/apps/com.jess.mobilesafe)<br>
 
 ##About Me
-* Email: jess.yan.effort@gmail.com
-* Home: jessyan.me
+Email: jess.yan.effort@gmail.com
+Home: http://jessyan.me

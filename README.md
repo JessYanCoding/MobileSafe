@@ -1,4 +1,4 @@
-# MobileSafe 是一个下载过两万并且非常适合初学者学习的项目(没错就是黑马手机卫士)
+# MobileSafe 是一个下载过三万并且非常适合初学者学习的项目(没错就是黑马手机卫士)
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/stars/nimelepbpejjlbmoobocpfnjhihnpked.svg)]()
 
 ##Introduction
